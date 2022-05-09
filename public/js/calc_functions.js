@@ -17,6 +17,12 @@ function atualizarOperacao(btn){
     valor1 = parseFloat(display.value);
     display.value = '0';
 }
+var numero = 0
+function CalcularRaiz(){
+   const display = document.getElementById('display');
+   const raiz = Math.sqrt(display.value);
+   display.value = raiz;
+}
 
 function calcularOperacao(){
     const display = document.getElementById('display');
